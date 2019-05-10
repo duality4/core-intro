@@ -8,3 +8,11 @@
 <h1>Person</h1>
 <p>@Model.Name</p>
 <p>@Model.Salary</p>
+
+@if(Model.Salary < 10000)
+{
+    <p>HaHa</p>
+}
+else  {
+<p>Thumbs up</p>
+}
